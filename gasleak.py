@@ -33,3 +33,5 @@ for line in open("wordlists/%s" % wordlist, "r").readlines():
 
 		with open("database/" + word, "w+") as file:
 			file.write(response)
+			
+			print(url)
